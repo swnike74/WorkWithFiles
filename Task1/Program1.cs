@@ -14,9 +14,7 @@ namespace Task1
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            TimeSpan ts;
             DateTime dateTime = DateTime.Now;
-            DateTime at;
             TimeSpan timeSpan = TimeSpan.FromMinutes(30);
 
             Console.WriteLine("Task 1 - Enter full path for directory delete:");

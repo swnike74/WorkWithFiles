@@ -7,7 +7,6 @@
         /// </summary>
         /// <param name="args"></param>
         /// 
-
         internal class Student
         {
             public string Name { get; set; }
@@ -19,9 +18,11 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Task 4");
-            string Filename = @"C:\Users\swnik\source\repos\BinaryReadWrite\BinaryReadWrite\SampleDataFile\students.dat";
-            string DestinationDirectory = @"C:\Users\swnik\OneDrive\Desktop\Students";
+            Console.WriteLine("Task 4 - Enter full path:");
+            string Filename = Console.ReadLine();
+
+            //string Filename = @"C:\Users\swnik\source\repos\BinaryReadWrite\BinaryReadWrite\SampleDataFile\students.dat";
+            string DestinationDirectory = @"C:\Users\swnike\Desktop\Students";
 
             List<Student> students = ReadStudentsFromBinFile(Filename);
 
@@ -64,9 +65,7 @@
                         sw.WriteLine(student.Name + " " + student.DateOfBirth + " " + student.AverageScore);
                     }
                 }
-
             }
-
         }
 
         static List<Student> ReadStudentsFromBinFile(string fileName)

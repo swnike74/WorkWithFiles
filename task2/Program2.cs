@@ -11,7 +11,6 @@
         {
             Console.WriteLine("Task 2 - Enter full path:");
             string Path = Console.ReadLine();
-            long size = 0;
 
             if (Directory.Exists(Path))
             {
