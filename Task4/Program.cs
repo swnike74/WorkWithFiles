@@ -1,6 +1,6 @@
 ﻿namespace Task4
 {
-    internal class Program4
+    internal class Program
     {
         /// <summary>
         /// программа-загрузчик данных из бинарного формата в текст.

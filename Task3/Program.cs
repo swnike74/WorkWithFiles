@@ -1,6 +1,6 @@
 ﻿namespace Task3
 {
-    internal class Program3
+    internal class Program
     {
         /// <summary>
         /// Модифиация Task 1

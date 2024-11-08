@@ -6,7 +6,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace Task1
 {
-    internal class Program1
+    internal class Program
     {
         /// <summary>
         /// программа, которая чистит нужную нам папку от файлов  и папок, которые не использовались более 30 минут 

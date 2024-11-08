@@ -1,6 +1,6 @@
 ﻿namespace task2
 {
-    internal class Program2
+    internal class Program
     {
         /// <summary>
         /// Программа, которая считает размер папки на диске (вместе со всеми вложенными папками и файлами). 
